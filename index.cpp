@@ -1,6 +1,8 @@
 include <iostream>
 using namespace std;
 
+
+// INPUT
 int main() {
 
   char kal;
@@ -17,6 +19,8 @@ int main() {
   cout << "Masukkan angka 2: ";
   cin  >> angka2;
 
+// CASE NYA
+
   switch(kal) {
 
     case '+':
@@ -24,15 +28,15 @@ int main() {
       break;
 
     case '-':
-      cout << angka1 << " - " << angka2 << " = " << angka1 - angka2;
+      cout << "Hasil:" << angka1 - angka2 << "\n";
       break;
 
     case 'x':
-      cout << angka1 << " * " << angka2 << " = " << angka1 * angka2;
+      cout << "Hasil:" << angka1 * angka2 << "\n";
       break;
 
     case ':':
-      cout << angka1 << " / " << angka2 << " = " << angka1 / angka2;
+      cout << "Hasil:" << angka1 / angka2 << "\n";
       break;
 
     default:
